@@ -469,70 +469,65 @@ form{
         padding: 2rem 3%;
     }
 }
-@media(max-width:895px){
-    #menu-icon{
-        display:block;
+@media(max-width:895px) {
+    #menu-icon {
+        display: block;
     }
-    .navbar{
+    .navbar {
         position: absolute;
         top: 100%;
         right: 0;
-        width:50%;
+        width: 50%;
         padding: 1rem 3%;
-        background:rgba(0,0,0,0.8);
+        background: rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(20px);
         border-bottom-left-radius: 2rem;
-        border-left:2px solid var(--main-color);
+        border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
         display: none;
     }
-    .navbar.active{
+    .navbar.active {
         display: block;
     }
-    .navbar a{
+
+    .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
-        color:white;
+        color: white;
     }
-    .home{
+
+    .home {
         flex-direction: column-reverse;
         margin: 5rem 4rem;
     }
-    .home-content h3{
+
+    .home-content h3 {
         font-size: 2.6rem;
     }
-    .home-content h1{
-         font-size: 8rem;
-         margin-top: 3rem;
+
+    .home-content h1 {
+        font-size: 8rem;
+        margin-top: 3rem;
     }
-    .home-content p{
+
+    .home-content p {
         margin: 0 auto;
         max-width: 600px;
     }
-    .home-img img{
+
+    .home-img img {
         width: 56vw;
     }
-    .skills h2{
+
+    .skills h2 {
         margin-bottom: 3rem;
     }
-    .skills-container{
-        grid-template-columns: repeat(1,1fr);
+
+    .skills-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
