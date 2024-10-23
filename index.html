@@ -4,13 +4,15 @@
     <title>ManiPortfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="CssFile.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
           rel='stylesheet'>
     <link rel="icon" href="PortfolioImg.jpg">
 </head>
 <body>
-    <header class="header">
+
+    <header class="header" >
         <a href="#home" class="logo">Mani's
         <span>Portfolio</span></a>
 
@@ -20,6 +22,7 @@
             <a class="active" href="#home">Home</a>
             <a href="#education">Education</a>
             <a href="#skills">Skills</a>
+            <a href="#TechStack">Tech&Programs</a>
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
         </nav>
@@ -92,7 +95,7 @@
                     <div class="timeline-date">2024</div>
                     <div class="timeline-content">
                         <h3>Internship</h3>
-                        <p>I completed my internship in Data Science at Teachnook
+                        <p class="text-[1rem]">I completed my internship in Data Science at Teachnook
                             in 2024, where I gained hands-on experience in data analysis
                             and machine learning. This opportunity allowed me to work on impactful projects,
                             enhancing my technical skills and problem-solving abilities</p>
@@ -108,8 +111,8 @@
         <div class="skills-container">
             <div class="skill-box">
                 <div class="skill-info">
-                    <h4>Data Science</h4>
-                    <p>Data science is an interdisciplinary field focused
+                    <h4 class="text-4xl md:text-6xl">Data Science</h4>
+                    <p class="text-[1.1rem] md:text-2xl">Data science is an interdisciplinary field focused
                         on extracting insights and knowledge from data using
                         scientific methods, algorithms, and processes. It
                         combines elements from statistics, computer science, and domain expertise
@@ -119,8 +122,8 @@
 
             <div class="skill-box">
                 <div class="skill-info">
-                    <h4>Frontend Development</h4>
-                    <p>Frontend development focuses on creating the visual and
+                    <h4 class="text-4xl md:text-6xl">Frontend Development</h4>
+                    <p class="text-[1.1rem] md:text-2xl">Frontend development focuses on creating the visual and
                         interactive aspects of websites and applications that
                         users engage with directly. It involves three core technologies:
                         HTML, which structures the content; CSS, which styles and formats the appearance;
@@ -130,8 +133,8 @@
 
             <div class="skill-box">
                 <div class="skill-info">
-                    <h4>Backend Development</h4>
-                    <p>Backend development refers to the server-side of
+                    <h4 class="text-4xl md:text-6xl">Backend Development</h4>
+                    <p class="text-[1.1rem] md:text-2xl">Backend development refers to the server-side of
                         web applications, responsible for managing the logic,
                         database interactions, and server communication that
                         power the functionalities users don't see. It involves
@@ -142,8 +145,8 @@
 
              <div class="skill-box">
                 <div class="skill-info">
-                    <h4>Dsa with Java</h4>
-                    <p>Data Structures and Algorithms (DSA) with Java focuses
+                    <h4 class="text-4xl md:text-6xl">Dsa with Java</h4>
+                    <p class="text-[1.1rem] md:text-2xl">Data Structures and Algorithms (DSA) with Java focuses
                         on organizing and manipulating data efficiently using the
                         Java programming language. It encompasses various data structures
                         like arrays, linked lists, stacks, queues, trees, and graphs,
@@ -152,8 +155,48 @@
                         essential for technical interviews and real-world applications </p>
                 </div>
             </div>
-
+            <div></div>
         </div>
+    </section>
+
+     <section class="w-screen bg-tailwindBg" id="TechStack">
+         <div class="text-center font-bold text-[40px] mb-10">
+             <h1>Programming & Technologies</h1>
+         </div>
+         <div class="grid sm:gird sm:grid-cols-2 lg:grid-cols-4">
+               <div class="flex flex-col items-center  ">
+                     <img class="bg-blend-color-burn p-32 rounded-3xl transition duration-400 ease-in-out hover:scale-110 hover:shadow-2xl" src="./icons/html-5.png" alt="html">
+                     <p class="font-bold text-[20px] text-center">Html</p>
+               </div>
+              <div class="flex flex-col items-center ">
+                     <img class="bg-blend-color-burn p-32 rounded-3xl transition duration-400 ease-in-out hover:scale-110 hover:shadow-2xl" src="./icons/css-3.png" alt="html">
+                     <p class="font-bold text-[20px] text-center">Css</p>
+               </div>
+              <div class="flex flex-col items-center ">
+                     <img class="bg-blend-color-burn p-36 rounded-3xl transition duration-400 ease-in-out hover:scale-110 hover:shadow-2xl" src="./icons/js.png" alt="html">
+                     <p class="font-bold text-[20px] text-center">JavaScript</p>
+               </div>
+              <div class="flex flex-col items-center ">
+                     <img class="bg-blend-color-burn p-32 rounded-3xl transition duration-400 ease-in-out hover:scale-110 hover:shadow-2xl" src="./icons/Tailwind%20CSS.png" alt="html">
+                     <p class="font-bold text-[20px] text-center">TailwindCss</p>
+               </div>
+              <div class="flex flex-col items-center ">
+                     <img class="bg-blend-color-burn p-32 rounded-3xl transition duration-400 ease-in-out hover:scale-110 hover:shadow-2xl" src="./icons/atom.png" alt="html">
+                     <p class="font-bold text-[20px] text-center">React</p>
+               </div>
+              <div class="flex flex-col items-center ">
+                     <img class="bg-blend-color-burn p-32 rounded-3xl transition duration-400 ease-in-out hover:scale-110 hover:shadow-2xl" src="./icons/java.png" alt="html">
+                     <p class="font-bold text-[20px] text-center">Java</p>
+               </div>
+                 <div class="flex flex-col items-center ">
+                     <img class="bg-blend-color-burn p-32 rounded-3xl transition duration-400 ease-in-out hover:scale-110 hover:shadow-2xl" src="./icons/python.png" alt="html">
+                     <p class="font-bold text-[20px] text-center">Python</p>
+               </div>
+              <div class="flex flex-col items-center">
+                     <img class="p-32 rounded-3xl transition duration-400 ease-in-out hover:scale-110 hover:shadow-2xl" src="./icons/data-science.png" alt="html">
+                     <p class="font-bold text-[20px] text-center">DataScience</p>
+               </div>
+         </div>
     </section>
 
     <section class="contact" id="contact">
@@ -215,6 +258,6 @@
         </p>
     </footer>
 
-    <script src="JsFile.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
